@@ -19,3 +19,21 @@ html {
     height: 12rem;
     width: 12rem;
 }
+
+.socialMedia {
+    display: flex;
+    /* justify-conten: center; */
+}
+
+.imgFooter {
+    height: 5rem;
+    width: 5rem;
+    justify-content: center;
+}
+
+.containerImgFooter {
+    position: relative;
+    width: 10rem;
+    background-color: violet;
+    margin: 0 auto;
+}
