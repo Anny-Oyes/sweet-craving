@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    list-style: none;
+}
+
+main{
+    background-color: rgb(224, 221, 216);
+    width: 98.5vw;
+    height: 65rem;
+    min-width: 30.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.seccion-izquierda{
+    margin-right: 1px;
+    margin-left: 15px;
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: 90% 100%;
+    width: 50%;
+    height: 60rem
+
+}
+.seccion-derecha{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 15px;
+    background-color: white;
+    width: 50%;
+    height: 60rem;
+}
+.titulo-menu{
+    margin-top: 32px;
+    min-width: 10.5rem;
+    max-width: 35rem;
+    display: flex;
+    background-color: rgb(212, 60, 111);
+    width: 40%;
+    height: 8%;
+    border-radius: 20px;
+}
+.titulo-menu2{
+    background-color: blueviolet;
+    min-width: 10.5rem;
+    max-width: 35rem;
+    display: flex;
+    background-color: rgb(212, 60, 111);
+    width: 40%;
+    height: 8%;
+    border-radius: 20px;
+}
+.titulo{
+    color: white;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+figure{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    height: 15%;
+}
+.pastelitos{
+    width: 100%;
+    height: 100%;
+}
+div{
+    width: 40px;
+    height: 120px;
+    background-color: red;
+}
+.cajita{
+    display: flex;
+    width: 100%;
+    height: 35%;
+
+}
+.cajita2{
+    display: flex;
+    width: 100%;
+    height: 30%;
+
+}
+.texto{
+    margin-top: 25px;
+    word-wrap: break-word;
+    margin-left: 32px;
+    width: 40%;
+    height: 70%;
+    min-width: 1.5rem;
+    max-width: 65rem;
+    min-height: 10rem;
+
+}
+.figure-imagen-menu{
+    max-width: 15rem;
+    max-height: 30rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 90%;
+}
+.pastelito1{
+    width: 90%;
+    height: 90%;
+}
+h2{
+    margin-top: 12px;
+    font-size: 1vw;
+    font-family: 'arial';
+}
+.figure-imagen2-menu{
+    max-width: 15rem;
+    max-height: 30rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: right;
+    width: 40%;
+    height: 90%;
+}
+.pastelito2{
+    margin-top: -22px;
+    width: 100%;
+    height: 100%;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    width: 100%;
+    height: 60%;
+}
+.contenedor2{
+    background-color: rgb(200, 40, 93);
+    width: 100%;
+    height: 40%;
+}
+.caja1{
+    background-color: lightcoral;
+    width: 30%;
+    height: 30%;
+}
+.caja2{
+    background-color: lightcoral;
+    width: 30%;
+    height: 30%;
+}
+.caja3{
+    background-color: lightcoral;
+    width: 100%;
+    height: 100%;
+}
+.caja4{
+    background-color: lightcoral;
+    width: 70%;
+    height: 30%;
+}
+.caja1{
+    background-color: lightcoral;
+    width: 30%;
+    height: 30%;
+}
+.caja5{margin-top: 42px;
+    margin-left: -2px;
+    align-self: flex-end;
+    width: 100%;
+    height: 40%;
+}
+h1{
+    text-align: center;
+}
+.titulo1{
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-top: 66px;
+}
+.img-puntitos{
+    width: 100%;
+    height: 100%;
+}
+.cajita-img{
+    max-width: 50rem;
+    max-height: 40rem;
+    position: relative;
+    top: -123px;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-nombre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+}
+.nombre{
+    font-family: 'MiFuente';
+    font-size: 3vw;
+    color: rgb(200, 40, 93);
+}
+@font-face{
+    font-family: 'MiFuente';
+    src: url('../fuente/Take\ Coffee.ttf');
+}
+
